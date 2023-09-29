@@ -1,0 +1,19 @@
+# This is a list of ISBN-13s extracted from the files contained in the Books3 dataset. It consists of (mostly) pirated ebooks. It may include both print- and e-book ISBNs of the same title, depending on the practice of publishers in including ISBNs in their ebook files. ISBNs are presented as extracted, and not always in canonical form with hyphens included (in the right places). They are presented as they appeared in the txt files that were part of Books3. 
+
+#For more information on copyright and large language models, see https://aicopyright.substack.com, a newsletter from Peter Schoppert.
+# SHORT TEST VERSION INCLUDING TWO NORWEGIAN ISBNS (82 after initial 978 prefix)
+
+978 17803 1000 8
+978-1-4766-0562-3
+978-1-60486-090-0
+978-0-545-76594-7
+978-2-7024-3455-0
+978-0-374-10021-6
+978-0-545-76593-0
+978-0-545-76600-5
+978-0-385-37033-2
+9780596002985
+978059610079
+978-1-60868-092-4
+9788282261241
+978-82-495-1096-2
