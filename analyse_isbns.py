@@ -1,4 +1,4 @@
-    """Loads and standardizes ISBNs from a text file.
+"""Loads and standardizes ISBNs from a text file.
     The idea is to add functions to filter out ISBNS from specific
     countries, and to fetch book details (author, title), maybe using 
     the Google Books API or something else.
@@ -29,9 +29,14 @@ def main(filename):
     valid_isbns = filter_valid_isbns(standardized_isbns)
     return valid_isbns
     
-def filter_norwegian_isbns(isbns):
-    main(filename)
-    return [isbn for isbn in valid_isbns if isbn[3:5] == '82']
+def filter_norwegian_isbns(filename):
+    valid_isbns = main(filename)
+    norwegian_isbns = [isbn for isbn in valid_isbns if isbn[3:5] == '82']
+    for isbn in norwegian_isbns:
+        print(isbn)
+    return norwegian_isbns
 
 if __name__ == "__main__":
-    filter_norwegian_isbns("test.txt")
+    filter_norwegian_isbns("isbns.txt")
+
+    #filter_norwegian_isbns("test_isbns.txt")
